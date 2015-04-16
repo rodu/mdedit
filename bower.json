@@ -1,13 +1,13 @@
 {
-  "name": "angular-learning",
+  "name": "mdedit",
   "version": "0.0.1",
-  "homepage": "https://github.com/rodugist/angular-learning",
+  "homepage": "https://github.com/rodu/mdedit",
   "authors": [
     "Roberto Schioppa <greenheron35@gmail.com>"
   ],
-  "description": "Learning AngularJS",
+  "description": "Web based markdown editor",
   "moduleType": [
-    "amd"
+    "plain"
   ],
   "license": "MIT",
   "private": true,
@@ -19,6 +19,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.4"
+    "bootstrap": "~3.3.4",
+    "angularjs": "~1.3.15",
+    "angular-route": "~1.3.15"
   }
 }
