@@ -1,0 +1,24 @@
+<p>{{pageTitle}} your message!</p>
+<form ng-submit="onSubmit()">
+  <div class="row">
+    <div class="col-md-6 col-xs-6">
+      <textarea name="message"
+        id="textarea-message"
+        cols="30"
+        rows="10"
+        ng-change="checkMessage()"
+        ng-model="message">
+          {{message}}
+        </textarea>
+    </div>
+    <div class="col-md-6 col-xs-6">
+      <div>Live Preview area</div>
+      <div>{{message}}</div>
+    </div>
+  </div>
+  <div class="row">
+    <button ng-click="clearMessage()">Clear</button>
+    <button ng-show="isSendVisible">Send</button>
+  </div>
+</form>
+

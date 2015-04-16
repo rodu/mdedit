@@ -1,0 +1,24 @@
+{
+  "name": "angular-learning",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rodugist/angular-learning",
+  "authors": [
+    "Roberto Schioppa <greenheron35@gmail.com>"
+  ],
+  "description": "Learning AngularJS",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

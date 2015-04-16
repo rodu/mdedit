@@ -1,0 +1,28 @@
+{
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "sub": true,
+    "undef": true,
+    "boss": true,
+    "eqnull": true,
+    "unused": true,
+    "browser": true,
+    "quotmark": 'single',
+    "evil": false,
+    "noarg": true,
+    "regexdash": true,
+    "devel": true,
+    "wsh": true,
+    "onevar": true,
+    "funcscope": false,
+    "strict": true,
+    "trailing": false,
+    "indent": 4,
+    "noempty": true,
+    "globals": {
+      "angular": true;
+    }
+}
