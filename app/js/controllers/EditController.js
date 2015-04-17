@@ -3,17 +3,23 @@
 
   function EditController($scope, data) {
     $scope.pageTitle = data.pageTitle;
-    $scope.message = data.message;
+    $scope.content = data.content;
     $scope.isSendVisible = false;
 
-    $scope.checkMessage = function () {
-      if ($scope.message.length > 10) {
+    /**
+     * Transpiles the text content to markdown for preview.
+     */
+    $scope.transpile = function () {
+      if ($scope.content.length > 10) {
         $scope.isSendVisible = true;
       }
     };
 
-    $scope.clearMessage = function () {
-      $scope.message = '';
+    /**
+     * Clears the entire text.
+     */
+    $scope.clear = function () {
+      $scope.content = '';
     };
 
     $scope.onSubmit = function () {};

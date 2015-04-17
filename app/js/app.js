@@ -10,7 +10,7 @@
         data: function () {
           return {
             pageTitle: 'Edit',
-            message: 'Default message.'
+            content: 'Default content.'
           };
         }
       }
@@ -23,7 +23,7 @@
         data: function () {
           return {
             pageTitle: 'Preview',
-            message: 'This is the message!'
+            content: 'This is the content!'
           };
         }
       }

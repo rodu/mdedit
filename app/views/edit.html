@@ -6,7 +6,7 @@
         id="textarea-message"
         cols="30"
         rows="10"
-        ng-change="checkMessage()"
+        ng-change="transpile()"
         ng-model="message">
           {{message}}
         </textarea>
@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="row">
-    <button ng-click="clearMessage()">Clear</button>
+    <button ng-click="clear()">Clear</button>
     <button ng-show="isSendVisible">Send</button>
   </div>
 </form>
